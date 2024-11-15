@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.1.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="b2a6aee4-9f9b-4200-9ece-10ac3eec396a" data-root-id="p1004" style="display: contents;"></div>
+  
+    <script type="application/json" id="eb8b4810-3847-4e78-a8ed-907f3c5d2e21">
+      {"3a4172aa-c862-4baa-a4ea-19245418ee16":{"version":"3.6.1","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p1004","attributes":{"width":1200,"height":400,"x_range":{"type":"object","name":"DataRange1d","id":"p1006"},"y_range":{"type":"object","name":"Range1d","id":"p1014","attributes":{"end":125}},"x_scale":{"type":"object","name":"LinearScale","id":"p1015"},"y_scale":{"type":"object","name":"LinearScale","id":"p1016"},"title":{"type":"object","name":"Title","id":"p1007","attributes":{"text":"Testing Jaringan","text_color":"#666666","text_font_size":"20pt"}},"outline_line_color":"black","renderers":[{"type":"object","name":"GlyphRenderer","id":"p1057","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p1001","attributes":{"selected":{"type":"object","name":"Selection","id":"p1002","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p1003"},"data":{"type":"map","entries":[["timestamps",[1722335022000.0,1722338633000.0,1722342244000.0,1722345855000.0,1722349471000.0,1722353081000.0,1722356692000.0,1722360303000.0,1722363915000.0,1722367533000.0,1722371152000.0,1722374784000.0,1722378395000.0,1722382006000.0,1722385616000.0,1722389227000.0,1722392838000.0,1722396449000.0,1722400059000.0,1722403670000.0,1722407281000.0,1722410892000.0,1722414502000.0,1722418113000.0,1722421724000.0,1722424158000.0,1722427770000.0,1722442591000.0,1722446210000.0,1722449821000.0,1722453444000.0,1722460681000.0,1722464301000.0,1722467911000.0,1722471522000.0,1722475133000.0,1722478744000.0,1722482354000.0,1722485965000.0,1722489576000.0,1722493187000.0,1722496798000.0,1722500408000.0,1722504019000.0,1722507630000.0,1722511241000.0,1722514858000.0,1722518480000.0,1722522102000.0,1722525716000.0,1722529327000.0,1722532946000.0,1722536560000.0,1722543798000.0,1722547410000.0,1722551021000.0,1722554632000.0,1722558242000.0,1722561853000.0,1722565464000.0,1722569075000.0,1722572686000.0,1722576296000.0,1722579907000.0,1722583518000.0,1722587129000.0,1722590740000.0,1722594351000.0,1722597961000.0,1722601572000.0,1722605183000.0,1722608794000.0,1722612405000.0,1722616019000.0,1722619632000.0,1722623261000.0,1722626885000.0,1722634122000.0,1722637733000.0,1722641344000.0,1722644955000.0,1722648566000.0,1722652177000.0,1722655787000.0,1722659398000.0,1722663009000.0,1722666619000.0,1722670230000.0,1722673841000.0,1722677452000.0,1722681063000.0,1722684673000.0,1722688284000.0,1722691895000.0,1722695506000.0,1722699117000.0,1722702727000.0,1722706338000.0,1722709949000.0,1722713560000.0,1722717172000.0,1722720783000.0,1722724394000.0,1722728005000.0,1722731616000.0,1722735226000.0,1722738837000.0,1722742448000.0,1722746059000.0,1722749669000.0,1722753280000.0,1722756891000.0,1722760502000.0,1722764113000.0,1722767724000.0,1722771334000.0,1722774945000.0,1722778556000.0,1722782167000.0,1722785778000.0,1722789389000.0,1722793000000.0,1722796610000.0,1722800223000.0,1722803834000.0,1722807445000.0,1722811056000.0,1722814667000.0,1722818278000.0,1722821888000.0,1722825499000.0,1722829110000.0,1722832721000.0,1722836332000.0,1722839942000.0,1722843553000.0,1722847164000.0,1722850775000.0,1722854386000.0,1722858009000.0,1722861631000.0,1722865250000.0,1722868861000.0,1722872472000.0,1722876083000.0,1722879694000.0,1722883308000.0,1722886931000.0,1722890551000.0,1722894170000.0,1722938850000.0,1722942460000.0,1722946071000.0,1722949682000.0,1722953293000.0,1722956904000.0,1722960515000.0,1722964126000.0,1722967736000.0,1722971351000.0,1722974967000.0,1722978582000.0,1722982201000.0,1722985811000.0,1722989422000.0,1722993033000.0,1722996644000.0,1723000255000.0,1723003865000.0,1723007476000.0,1723011087000.0,1723014698000.0,1723018308000.0,1723021919000.0,1723025531000.0,1723029141000.0,1723032753000.0,1723036363000.0,1723039974000.0,1723043585000.0,1723047196000.0,1723050807000.0,1723054418000.0,1723058036000.0,1723061656000.0,1723065277000.0,1723068888000.0,1723072499000.0,1723076110000.0,1723079721000.0,1723083332000.0,1723086942000.0,1723090553000.0,1723094164000.0,1723097775000.0,1723101386000.0]],["bitrates",[0.949,81.5,68.9,20.9,1.49,43.0,78.9,32.6,3.64,0.325,0.816,0.502,57.9,90.1,87.3,90.2,90.5,90.7,87.3,90.7,90.7,90.4,91.0,89.8,16.2,3.54,51.1,9.0,1.31,35.4,0.226,2.6,1.08,88.1,90.3,90.3,90.3,90.7,90.3,90.2,90.2,90.2,88.3,57.9,29.3,36.7,1.15,3.21,0.81,19.8,10.3,1.06,4.78,0.916,8.03,90.1,90.8,90.2,90.8,90.7,91.1,85.9,90.2,90.1,90.2,86.2,91.1,87.5,51.9,86.5,54.7,71.6,64.2,4.82,2.83,2.46,0.245,0.64,81.6,90.1,62.5,90.5,90.5,90.3,90.8,90.4,90.5,90.9,91.2,90.7,89.1,90.0,87.2,88.4,90.4,91.0,89.9,90.6,90.9,88.7,46.7,75.0,90.8,90.3,91.0,89.8,90.6,90.4,90.7,88.1,91.1,90.6,90.6,85.3,90.7,88.1,90.1,90.4,90.4,90.5,89.5,90.0,91.0,40.9,49.9,90.9,90.7,91.0,90.1,91.1,86.1,88.1,91.0,91.1,91.0,90.0,89.9,90.3,89.8,1.25,1.05,0.764,77.4,90.4,83.4,85.5,4.03,1.67,0.875,0.972,83.1,89.3,91.0,80.3,84.0,89.4,80.8,86.6,90.1,2.5,1.59,1.85,0.815,89.8,90.3,90.6,90.6,91.1,90.4,91.0,89.0,89.7,90.8,85.3,14.5,83.3,71.6,90.1,82.0,79.0,87.3,89.0,82.3,1.0,0.589,0.948,65.4,89.5,91.0,88.3,90.9,89.1,90.0,90.7,90.6,90.6]]]}}},"view":{"type":"object","name":"CDSView","id":"p1058","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p1059"}}},"glyph":{"type":"object","name":"Line","id":"p1054","attributes":{"x":{"type":"field","field":"timestamps"},"y":{"type":"field","field":"bitrates"},"line_color":"#1f77b4","line_width":1.5}},"nonselection_glyph":{"type":"object","name":"Line","id":"p1055","attributes":{"x":{"type":"field","field":"timestamps"},"y":{"type":"field","field":"bitrates"},"line_color":"#1f77b4","line_alpha":0.1,"line_width":1.5}},"muted_glyph":{"type":"object","name":"Line","id":"p1056","attributes":{"x":{"type":"field","field":"timestamps"},"y":{"type":"field","field":"bitrates"},"line_color":"#1f77b4","line_alpha":0.2,"line_width":1.5}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p1013","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p1039"},{"type":"object","name":"BoxZoomTool","id":"p1040","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p1041","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p1047","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p1046","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p1048"},{"type":"object","name":"SaveTool","id":"p1049"},{"type":"object","name":"HoverTool","id":"p1050","attributes":{"renderers":"auto","tooltips":[["Date","@timestamps{%Y-%m-%d}"],["Time","@timestamps{%H:%M:%S}"],["Speed","@bitrates{0.00} Mbps"]],"formatters":{"type":"map","entries":[["@timestamps","datetime"]]}}}]}},"toolbar_location":"above","left":[{"type":"object","name":"LinearAxis","id":"p1034","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p1035","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"NumeralTickFormatter","id":"p1060","attributes":{"format":"0.00"}},"axis_label":"Speed (Mbps)","axis_label_text_font_size":"10pt","major_label_policy":{"type":"object","name":"AllLabels","id":"p1037"},"major_label_text_font_size":"8pt"}}],"below":[{"type":"object","name":"DatetimeAxis","id":"p1017","attributes":{"ticker":{"type":"object","name":"DatetimeTicker","id":"p1018","attributes":{"num_minor_ticks":5,"tickers":[{"type":"object","name":"AdaptiveTicker","id":"p1019","attributes":{"num_minor_ticks":0,"mantissas":[1,2,5],"max_interval":500.0}},{"type":"object","name":"AdaptiveTicker","id":"p1020","attributes":{"num_minor_ticks":0,"base":60,"mantissas":[1,2,5,10,15,20,30],"min_interval":1000.0,"max_interval":1800000.0}},{"type":"object","name":"AdaptiveTicker","id":"p1021","attributes":{"num_minor_ticks":0,"base":24,"mantissas":[1,2,4,6,8,12],"min_interval":3600000.0,"max_interval":43200000.0}},{"type":"object","name":"DaysTicker","id":"p1022","attributes":{"days":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]}},{"type":"object","name":"DaysTicker","id":"p1023","attributes":{"days":[1,4,7,10,13,16,19,22,25,28]}},{"type":"object","name":"DaysTicker","id":"p1024","attributes":{"days":[1,8,15,22]}},{"type":"object","name":"DaysTicker","id":"p1025","attributes":{"days":[1,15]}},{"type":"object","name":"MonthsTicker","id":"p1026","attributes":{"months":[0,1,2,3,4,5,6,7,8,9,10,11]}},{"type":"object","name":"MonthsTicker","id":"p1027","attributes":{"months":[0,2,4,6,8,10]}},{"type":"object","name":"MonthsTicker","id":"p1028","attributes":{"months":[0,4,8]}},{"type":"object","name":"MonthsTicker","id":"p1029","attributes":{"months":[0,6]}},{"type":"object","name":"YearsTicker","id":"p1030"}]}},"formatter":{"type":"object","name":"DatetimeTickFormatter","id":"p1061","attributes":{"hours":"%m/%d/%Y %H:%M:%S","days":"%m/%d/%Y","months":"%m/%d/%Y","years":"%m/%d/%Y"}},"axis_label":"DATE TIME","axis_label_text_font_size":"10pt","major_label_orientation":0,"major_label_policy":{"type":"object","name":"AllLabels","id":"p1032"},"major_label_text_font_size":"8pt"}}],"center":[{"type":"object","name":"Grid","id":"p1033","attributes":{"axis":{"id":"p1017"},"grid_line_color":"#E0E0E0"}},{"type":"object","name":"Grid","id":"p1038","attributes":{"dimension":1,"axis":{"id":"p1034"},"grid_line_color":"#E0E0E0"}}],"background_fill_color":"white","border_fill_color":"white"}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('eb8b4810-3847-4e78-a8ed-907f3c5d2e21').textContent;
+              const render_items = [{"docid":"3a4172aa-c862-4baa-a4ea-19245418ee16","roots":{"p1004":"b2a6aee4-9f9b-4200-9ece-10ac3eec396a"},"root_ids":["p1004"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
